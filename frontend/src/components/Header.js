@@ -55,6 +55,7 @@ class Header extends React.Component {
     return (
       <nav
         className="navbar navbar-expand-md navbar-dark"
+        style={{ padding: "0.5rem 2rem" }}
       >
         <Link to="/" className="navbar-brand">
           <img alt="logo" src={logo} />
